@@ -1,0 +1,21 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\XMLContent\bin\Debug\net6.0\XMLContent.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Weapons/Broadsword.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Weapons/Broadsword.xml
+
